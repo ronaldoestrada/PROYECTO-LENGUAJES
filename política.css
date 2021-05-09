@@ -1,0 +1,16 @@
+.politica{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14pt;
+    color: rgb(34, 34, 114);
+}
+
+.politica h1{
+    background-color: rgb(34, 34, 114);
+    color: white;
+    margin-bottom: 10px;
+}
+
+.politica h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

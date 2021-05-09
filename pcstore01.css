@@ -1,0 +1,211 @@
+* {
+    margin: 1px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(34, 34, 114);
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(34, 34, 114);
+    width: 100%;
+    margin-top: 20px;
+}
+
+.encabezado01{
+    clear: both;
+    overflow: auto;  
+}
+
+.encabezado01 div ul li{
+    display: inline;
+    padding: 10px;
+}
+
+.buscando{
+    width: 400px;
+    height: 30px;
+}
+
+.navlogo{
+    float: left;
+    margin-top: 20px;
+}
+
+.navmenu{
+    margin-top: 40px;
+}
+
+.navmenu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navmenu li{
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+.navmenu li:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.navmenu li a{
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menusociales ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: cursive;
+}
+
+.navsociales{
+    float: right;
+    margin-top: 20px;
+}
+
+.titlepro{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(34, 34, 114);
+    margin-top: 40px;
+    color: white;
+}
+
+.productos01 ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.productos02 ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.productos03 ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.productos04 ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.piemenu{
+    margin-top: 50px;
+}
+
+.piemenu li:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.subpiemenu{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/*.piemenu li{
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+}*/
+
+
+.subpiemenu li a{
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.subpol li a{
+    font-family: cursive;
+    font-size: 8pt;
+    color: chartreuse;
+}
+
+.subsomos li a{
+    font-family: cursive;
+    font-size: 8pt;
+    color: chartreuse;
+}
+
+.subserv li a{
+    font-family: cursive;
+    font-size: 8pt;
+    color: chartreuse;
+}
+
+.subcont li a{
+    font-family: cursive;
+    font-size: 8pt;
+    color: chartreuse;
+}
+
+.sublibro li a{
+    font-family: cursive;
+    font-size: 8pt;
+    color: chartreuse;
+}
+
+.subpol{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.subsomos{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.subserv{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.subcont{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sublibro{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
