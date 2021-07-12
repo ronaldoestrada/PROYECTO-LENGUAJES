@@ -5,34 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PCSTORE</title>
-    <link rel="shortcut icon" href="imagenes/VIRUS.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/pcstore01.css">
-    <link rel="stylesheet" href="css/pcstore03.css">
-            
+    <link rel="shortcut icon" href="img/VIRUS.ico" type="img/x-icon">
+    <link rel="stylesheet" href="/css/pcstore.css">
+    <link rel="stylesheet" href="/css/pcstore03.css">
+    <script src="/js/formulario.js"></script>
+
     <style>
         body{background-color: rgb(250, 250, 250);} 
         body{background-size: cover;}     
     </style>
-    
+
 </head>
 <body>
     <header>
         <div class="encabezado01">
             <div class="navlogo">
                 <ul class="menulogo">
-                    <li><a href="pcstore01.html"><img src="imagenes/LOGO PCSTORE.png" width="300" height="100"></a></li>
+                    <li><a href="pcstore01.html"><img src="img/LOGO PCSTORE.png" width="300" height="100"></a></li>
                     <li><input class="buscando" type="search" placeholder="buscar aqui"></li>
-                    <li><a href="pcstore02.html"><img src="imagenes/INICIO SESION.jpg" width="50" height="50"></a></li>
-                    <li><a href="#"><img src="imagenes/CARRITO.png" width="50" height="50"></a></li>
+                    <li><a href="pcstore02.html"><img src="img/INICIO SESION.jpg" width="50" height="50"></a></li>
+                    <li><a href="#"><img src="img/CARRITO.png" width="50" height="50"></a></li>
                 </ul> 
             </div> 
             <nav class="navsociales">
                 <div class="menusociales">
                     <ul>
                         <li><a href="#">SIGUENOS EN:</a></li>
-                        <li><a href="https://es-la.facebook.com/"><img src="imagenes/facebook.png" width="40" height="40"></a></li>
-                        <li><a href="https://www.instagram.com/"><img src="imagenes/INSTAGRAM.png" width="40" height="40"></a></li>
-                        <li><a href="https://api.whatsapp.com/send?phone=51959161766&text=Bienvenido%20al%20chat%20de%20atenci%C3%B3n%20personalizada,%20realiza%20tu%20consulta%20con%20toda%20la%20confianza%20del%20mundo."><img src="imagenes/whatsapp.png" width="40" height="40"></a></li>
+                        <li><a href="https://es-la.facebook.com/"><img src="img/facebook.png" width="40" height="40"></a></li>
+                        <li><a href="https://www.instagram.com/"><img src="img/INSTAGRAM.png" width="40" height="40"></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=51959161766&text=Bienvenido%20al%20chat%20de%20atenci%C3%B3n%20personalizada,%20realiza%20tu%20consulta%20con%20toda%20la%20confianza%20del%20mundo."><img src="img/whatsapp.png" width="40" height="40"></a></li>
                     </ul>
                 </div>
             </nav>                                  
@@ -41,7 +42,7 @@
                 <ul>
                     <li><a href="pcstore01.html">INICIO</a></li>
                     <li><a href="pcstore04.html">ARMA TU PC</a></li>
-                    <li><a href="#">CAPACITACIONES</a></li>
+                    <li><a href="pcstore05.html">CAPACITACIONES</a></li>
                     <li><a href="#">ACCESORIOS</a></li>
                     <li><a href="#">CONTACTANOS</a></li>
                 </ul>
@@ -52,13 +53,13 @@
 <main>
     <section class="form-reg">
         <h4>FORMULARIO REGISTRO</h4>
-            <input class="controlls" type="text" name="nombres" id="nombres" placeholder="escribe tus nombres">
-            <input class="controlls" type="text" name="apellidos" id="apellidos" placeholder="escribe tus apellidos">
-            <input class="controlls" type="email" name="correo" id="correo" placeholder="escribe tu correo">
-            <input class="controlls" type="text" name="dni" id="dni" placeholder="escribe el número de tu DNI">
-            <input class="controlls" type="text" name="celular" id="celular" placeholder="escribe el número de tu celular">
-            <input class="controlls" type="password" name="contraseña" id="contraseña" placeholder="escribe tu contraseña">
-            <input class="controlls" type="password" name="contraseña1" id="ncontraseña1" placeholder="confirma tu contraseña">
+            <input class="controlls" type="text" name="nombres" id="nombres" placeholder="escribe tus nombres"  onkeypress="return sololetras(event)">
+            <input class="controlls" type="text" name="apellidos" id="apellidos" placeholder="escribe tus apellidos"  onkeypress="return sololetras(event)">
+            <input class="controlls" type="email" name="correo" id="correo" placeholder="escribe tu correo" >
+            <input class="controlls" type="text" name="dni" id="dni" placeholder="escribe el número de tu DNI"  maxlength="8" onkeypress="return solonumeros(event)">
+            <input class="controlls" type="text" name="celular" id="celular" placeholder="escribe el número de tu celular"  maxlength="9" onkeypress="return solonumeros(event)">
+            <input class="controlls" type="password" name="contraseña" id="contraseña"  placeholder="escribe tu contraseña">
+            <input class="controlls" type="password" name="contraseña1" id="contraseña1"  placeholder="confirma tu contraseña">
             <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
             <input class="botons" type="submit" name="" value="Registrarse">
             <p><a href="pcstore02.html">Ya tengo cuenta</a></p>
@@ -105,11 +106,11 @@
             <li><a href="pcstore32.html">LIBRO DE RECLAMACIONES</a></li>
         </ul>
     </nav> 
-    
+
 </footer>
     <div align=center>
-        <a href="pcstore01.html"><img src="imagenes/pckawai.png" alt="LOGO" width="250" height="200"></a>
+        <a href="pcstore01.html"><img src="img/pckawai.png" alt="LOGO" width="250" height="200"></a>
     </div>
-    
+
 </body>
 </html>
